@@ -138,12 +138,6 @@ $ npm run dev
 
 - [Wallpapers-NLW-SETUP](https://drive.google.com/drive/folders/1F5ghUWdlaC_1IKFxkNUgGcTGqpqdpR29)
 - [Notion-Trilha-Ignite](https://efficient-sloth-d85.notion.site/Trilha-Ignite-562e3516c7574fb7be75ff01fbb41f54)
-## :memo: Licença ##
-
-Este projeto está sob licença MIT. Para mais informações acesse [LICENSE](LICENSE.md).
-
-Feito com :heart: por <a href="https://github.com/juniorvilas" target="_blank">Carlindo Junior</a>
-
 &#xa0;
 
 <a href="#top">Voltar ao topo</a>
@@ -210,6 +204,10 @@ $ npm start
 ```
 
 Acesse o projeto <link do Projeto aqui> para ver o resultado!
+
+## :memo: Licença ##
+
+Este projeto está sob licença MIT. Para mais informações acesse [LICENSE](LICENSE.md).
 
 ---
 
