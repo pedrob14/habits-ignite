@@ -84,7 +84,7 @@ Abaixo poderá ter acesso às principais tecnologias usadas neste projeto
 
 Antes de iniciar :checkered_flag:, você precisa ter [Git](https://git-scm.com) e [Node](https://nodejs.org/en/) instalado em seu sistema operacional, a CLI do Expo e o app Expo Go.Não sabe como fazer isso? Criamos abaixo uma documentação para ajudar vocês nesse processo [CLIdoExpo](https://efficient-sloth-d85.notion.site/Instalando-Expo-a4042eaea57d40fabeeaa2e462424ff0).
 
-## :checkered_flag: Iniciand Frontend Mobile  ##
+## :checkered_flag: Iniciando Frontend Mobile  ##
 
 ```bash
 # Clone este projeto
@@ -115,6 +115,14 @@ $ npm i
 # Execute o projeto
 $ npm run dev
 ```
+```bash
+# Install the web dependencies
+$ cd web
+$ npm install
+
+# Start the web project
+$ npm run dev
+```
 
 ## :checkered_flag: Iniciando Backend (server)  ##
 
@@ -129,6 +137,15 @@ $ cd/nlw-setup/server
 $ npm i
 
 # Execute o projeto
+$ npm run dev
+```
+```bash
+# Install the server dependencies
+$ cd server
+$ npm install
+
+# Start the server project
+$ npx prisma migrate deploy
 $ npm run dev
 ```
 
@@ -152,42 +169,6 @@ $ npm run dev
 - Cadastrar um novo hábito;
 - Visualizar os hábitos de cada dia;
 - Acompanhar todo o progresso dos hábitos.
-
-## Como executar?
-
-### Web
-
-```bash
-# Install the web dependencies
-$ cd web
-$ npm install
-
-# Start the web project
-$ npm run dev
-```
-
-### Server
-
-```bash
-# Install the server dependencies
-$ cd server
-$ npm install
-
-# Start the server project
-$ npx prisma migrate deploy
-$ npm run dev
-```
-
-### Mobile
-
-```bash
-# Install the mobile dependencies
-$ cd mobile
-$ npm install
-
-# Start the mobile project
-$ npm start
-```
 
 Acesse o projeto <link do Projeto aqui> para ver o resultado!
 
