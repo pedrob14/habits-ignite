@@ -176,8 +176,7 @@ Acesse o projeto <link do Projeto aqui> para ver o resultado!
 
 Este projeto está sob licença MIT. Para mais informações acesse [LICENSE](LICENSE.md).
 
----
-
+<a href="#top">Voltar ao topo</a>
+<hr>
 Feito com 💜 por [Pedro Farias](https://github.com/pedrob14) 
 
-<a href="#top">Voltar ao topo</a>
