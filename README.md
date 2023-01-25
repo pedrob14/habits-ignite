@@ -5,10 +5,10 @@
 <p align="center">
    <img src=".github/preview.jpg"/>
 </p> 
-<hr><br/>
-
+<hr>
 <p align="center">
   <a href="#-sobre">Sobre</a> &#xa0; | &#xa0;
+   <a href="#-sobre">O que é habits</a> &#xa0; | &#xa0;
   <a href="#telas-da-aplicação">Telas</a> &#xa0; | &#xa0;
   <a href="#skateboard-funcionalidades">Funcionalidades</a> &#xa0; | &#xa0;
   <a href="#rocket-tecnologias">Tecnologias</a> &#xa0; | &#xa0;
@@ -18,13 +18,18 @@
   <a href="#memo-licença">Licença</a> &#xa0; | &#xa0;
   <a href="https://github.com/pedrob14" target="_blank">Autor</a>
 </p>
-
-<br>
+<hr>
 
 ## 😸 Sobre ##
 
 Projeto desenvolvido durante as aulas do Ignite NLW Setup - Habits patrocinado pela <a href="https://rocketseat.com.br/"> Rocketseat</a>.
 Neste evento vimos como usar tecnologias atuais e poderosas na construção de sistemas simples ou avançados, este projeto é completo com parte web(ReactJs), server(Backend com Node) e mobile(ReactNative).
+
+<b>Habits</b> é uma aplicação desenvolvida que possibilita o usuário:
+
+- Cadastrar um novo hábito;
+- Visualizar os hábitos de cada dia;
+- Acompanhar todo o progresso dos hábitos.
 
 ## Telas da aplicação
 
@@ -165,19 +170,6 @@ $ npm run dev
 - [Notion-Trilha-Ignite](https://efficient-sloth-d85.notion.site/Trilha-Ignite-562e3516c7574fb7be75ff01fbb41f54)
 &#xa0;
 
-<a href="#top">Voltar ao topo</a>
-- [O que é o Habits?](#o-que-é-o-habits)
-- [Tecnologias](#tecnologias)
-- [Como executar?](#como-executar)
-
-## O que é o Habits?
-
-<b>Habits</b> é uma aplicação desenvolvida durante o evento da Next Level Week da Rocketseat que possibilita o usuário:
-
-- Cadastrar um novo hábito;
-- Visualizar os hábitos de cada dia;
-- Acompanhar todo o progresso dos hábitos.
-
 Acesse o projeto <link do Projeto aqui> para ver o resultado!
 
 ## :memo: Licença ##
@@ -187,3 +179,5 @@ Este projeto está sob licença MIT. Para mais informações acesse [LICENSE](LI
 ---
 
 Feito com 💜 por [Pedro Farias](https://github.com/pedrob14) 
+
+<a href="#top">Voltar ao topo</a>
