@@ -153,20 +153,6 @@ $ npm run dev
 - Visualizar os hábitos de cada dia;
 - Acompanhar todo o progresso dos hábitos.
 
-## Tecnologias
-
-Foram utilizadas as seguintes tecnologias e ferramentas:
-
-- [NodeJS](https://nodejs.org/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Fastify](https://www.fastify.io/)
-- [Prisma](https://www.prisma.io/)
-- [ViteJS](https://vitejs.dev/)
-- [ReactJS](https://reactjs.org/)
-- [TailwindCSS](https://tailwindcss.com/)
-- [React Native](https://reactnative.dev/)
-- [Expo](https://expo.io/)
-
 ## Como executar?
 
 ### Web
