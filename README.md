@@ -24,7 +24,7 @@
 ## 😸 Sobre ##
 
 Projeto desenvolvido durante as aulas do Ignite NLW Setup - Habits patrocinado pela <a href="https://rocketseat.com.br/"> Rocketseat</a>.
-Neste evento vimos como usar tecnologias atuais e poderosas na construção de sistemas simples ou avançados,este projeto é completo com parte web(ReactJs), server(Backend com Node) e mobile(ReactNative).
+Neste evento vimos como usar tecnologias atuais e poderosas na construção de sistemas simples ou avançados, este projeto é completo com parte web(ReactJs), server(Backend com Node) e mobile(ReactNative).
 
 ## Telas da aplicação
 
@@ -88,7 +88,7 @@ Antes de iniciar :checkered_flag:, você precisa ter [Git](https://git-scm.com) 
 
 ```bash
 # Clone este projeto
-$ git clone https://github.com/juniorvilas/nlw-setup.git
+$ git clone https://github.com/pedrob14/habits-ignite.git
 
 # Acesse
 $ cd/nlw-setup/mobile
@@ -99,12 +99,20 @@ $ npm i
 # Execute o projeto
 $ npx expo start
 ```
+```bash
+# Install the mobile dependencies
+$ cd mobile
+$ npm install
+
+# Start the mobile project
+$ npm start
+```
 
 ## :checkered_flag: Iniciando Frontend Web  ##
 
 ```bash
 # Clone este projeto
-$ git clone https://github.com/juniorvilas/nlw-setup.git
+$ git clone https://github.com/pedrob14s/habits-ignite.git
 
 # Acesse
 $ cd/nlw-setup/web
@@ -128,7 +136,7 @@ $ npm run dev
 
 ```bash
 # Clone este projeto
-$ git clone https://github.com/juniorvilas/nlw-setup.git
+$ git clone https://github.com/pedrob14/habits-ignite.git
 
 # Acesse
 $ cd/nlw-setup/server
