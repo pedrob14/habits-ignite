@@ -76,7 +76,7 @@ Abaixo poderá ter acesso às principais tecnologias usadas neste projeto
 - [Svg-Transformer](https://github.com/kristerkari/react-native-svg-transformer)
 - [Phosphor Icons](https://github.com/duongdev/phosphor-react-native)
 - [Prisma](https://www.prisma.io/)
-- [Fastfy](https://www.fastify.io/)
+- [Fastify](https://www.fastify.io/)
 - [Tailwindcss](https://tailwindcss.com/)
 - [NativeWind](https://www.nativewind.dev/)
 - [Radix-ui](https://www.radix-ui.com/)
