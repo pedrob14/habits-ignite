@@ -2,7 +2,7 @@ type Usuario = {
     idade: number
 }
 
-function mostraIdadeDoUsuario(usuario) {
+function mostraIdadeDoUsuario(usuario: Usuario) {
     return usuario.idade
 }
 
