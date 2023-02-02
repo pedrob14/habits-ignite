@@ -13,4 +13,6 @@ app.get('/hello', () => {
 // fazendo com que a aplicação ouça a porta 3333
 app.listen({
     port: 3333
+}).then(() => {
+    console.log('HTTP Server running')
 })
