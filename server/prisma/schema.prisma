@@ -1,6 +1,6 @@
 // This is your Prisma schema file,
 // learn more about it in the docs: https://pris.ly/d/prisma-schema
-
+// É onde irá indicar quais tabelas irão existir no banco de dados
 generator client {
   provider = "prisma-client-js"
 }
@@ -8,4 +8,10 @@ generator client {
 datasource db {
   provider = "sqlite"
   url      = env("DATABASE_URL")
+}
+// Criando um tabela usando model
+// O model criado será a tabela Habit que irá salvar hábitos
+// Dentro das chaves vou informar quais campos serão utilizados na tabela
+model Habit {
+  id String @id @default(uuid())
 }
