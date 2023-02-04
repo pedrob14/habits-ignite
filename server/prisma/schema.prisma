@@ -13,5 +13,12 @@ datasource db {
 // O model criado será a tabela Habit que irá salvar hábitos
 // Dentro das chaves vou informar quais campos serão utilizados na tabela
 model Habit {
-  id String @id @default(uuid())
+  // @id -> pra falar que é a chave primária da aplicação
+  // @default(uuid()) -> Quando o hábito for criado no banco de dados, ele vai preencher o id automaticamente com um "uuid"
+  // uuid -> É um indentificador (id) único universal
+  id        String @id @default(uuid())
+  title     String
+  create_at DateTime
+  //@@map -> para informar qual será o nome da tabela
+  @@map("habits")
 }
