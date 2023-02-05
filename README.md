@@ -178,5 +178,5 @@ Este projeto está sob licença MIT. Para mais informações acesse [LICENSE](LI
 
 <a href="#top">Voltar ao topo</a>
 <hr>
-Feito com 💜 por [Pedro Farias](https://github.com/pedrob14) 
+Feito com 💜 por Pedro Farias
 
