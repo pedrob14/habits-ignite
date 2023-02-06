@@ -3,9 +3,14 @@ import Fastify from 'fastify'
 // Importação do PrismaClient
 import { PrismaClient } from '@prisma/client'
 // Criando a aplicação com fastify
+// Importação do Cors
+import cors from '@fastify/cors'
+
 const app = Fastify()
 // Ter acesso a todas as tabelas do banco de dados
 const prisma = new PrismaClient()
+
+app.register(cors)
 /**
  * Método HTTP: Get, Post, Put, Patch, Delete
  */
