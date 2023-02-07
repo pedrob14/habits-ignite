@@ -75,6 +75,7 @@ Abaixo poderá ter acesso às principais tecnologias usadas neste projeto
 - [TypeScript](https://www.typescriptlang.org/)
 - [Svg-Transformer](https://github.com/kristerkari/react-native-svg-transformer)
 - [Phosphor Icons](https://github.com/duongdev/phosphor-react-native)
+- [ViteJs](https://vitejs.dev/)
 - [Prisma](https://www.prisma.io/)
 - [Fastify](https://www.fastify.io/)
 - [Tailwindcss](https://tailwindcss.com/)
