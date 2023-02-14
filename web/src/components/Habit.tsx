@@ -12,6 +12,6 @@ export function Habit(props: HabitProps) {
     return (
         // Quando eu quero mostrar uma variável JavaScript
         //dentro do HTML e não só texto, é preciso está por volta de chaves
-        <div className=''>{props.completed}</div>
+        <div className='bg-zinc-900'>{props.completed}</div>
     )
 }
