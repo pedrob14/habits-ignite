@@ -1,4 +1,3 @@
-import './Habit.css'
 
 interface HabitProps {
     completed: number
@@ -13,6 +12,6 @@ export function Habit(props: HabitProps) {
     return (
         // Quando eu quero mostrar uma variável JavaScript
         //dentro do HTML e não só texto, é preciso está por volta de chaves
-        <div className='habit'>{props.completed}</div>
+        <div className=''>{props.completed}</div>
     )
 }
