@@ -13,7 +13,7 @@
   <a href="#skateboard-funcionalidades">Funcionalidades</a> &#xa0; | &#xa0;
   <a href="#rocket-tecnologias">Tecnologias</a> &#xa0; | &#xa0;
   <a href="#white_check_mark-requisitos-para-rodar-a-aplicação">Requisitos</a> &#xa0; | &#xa0;
-  <a href="#checkered_flag-iniciando">Iniciando</a> &#xa0; | &#xa0;
+  <a href="#checkered_flag-iniciando-frontend-mobile">Iniciando</a> &#xa0; | &#xa0;
   <a href="#-configurações-adicionais-ao-projeto">Schemas</a> &#xa0; | &#xa0;
   <a href="#memo-licença">Licença</a> &#xa0; | &#xa0;
   <a href="https://github.com/pedrob14" target="_blank">Autor</a>
