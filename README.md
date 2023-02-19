@@ -14,7 +14,7 @@
   <a href="#rocket-tecnologias">Tecnologias</a> &#xa0; | &#xa0;
   <a href="#white_check_mark-requisitos-para-rodar-a-aplicação">Requisitos</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-iniciando-frontend-mobile">Iniciando</a> &#xa0; | &#xa0;
-  <a href="#-configurações-adicionais-ao-projeto">Schemas</a> &#xa0; | &#xa0;
+  <a href="#material-complementar-para-o-projeto">Material Complementar</a> &#xa0; | &#xa0;
   <a href="#memo-licença">Licença</a> &#xa0; | &#xa0;
   <a href="https://github.com/pedrob14" target="_blank">Autor</a>
 </p>
@@ -165,7 +165,7 @@ $ npm run dev
 
 
 
-## 📡 Material complementar para o projeto ##
+## Material complementar para o projeto ##
 
 - [Wallpapers-NLW-SETUP](https://drive.google.com/drive/folders/1F5ghUWdlaC_1IKFxkNUgGcTGqpqdpR29)
 - [Notion-Trilha-Ignite](https://efficient-sloth-d85.notion.site/Trilha-Ignite-562e3516c7574fb7be75ff01fbb41f54)
