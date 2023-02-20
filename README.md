@@ -1,5 +1,4 @@
-# Habits
-<p align="center">
+<p align="center" id="top">
    <img src=".github/preview.jpg"/>
 </p> 
 <hr>
@@ -174,5 +173,5 @@ Acesse o projeto <link do Projeto aqui> para ver o resultado!
 
 Este projeto está sob licença MIT. Para mais informações acesse [LICENSE](LICENSE.md).
 
-<a href="#habits">Voltar ao topo</a>
+<a href="#top">Voltar ao topo</a>
 
