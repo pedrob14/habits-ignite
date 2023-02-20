@@ -7,8 +7,8 @@
 </p> 
 <hr>
 <p align="center">
-  <a href="#-sobre">Sobre</a> &#xa0; | &#xa0;
-   <a href="#-sobre">O que é habits</a> &#xa0; | &#xa0;
+  <a href="#sobre">Sobre</a> &#xa0; | &#xa0;
+   <a href="#sobre">O que é habits</a> &#xa0; | &#xa0;
   <a href="#telas-da-aplicação">Telas</a> &#xa0; | &#xa0;
   <a href="#skateboard-funcionalidades">Funcionalidades</a> &#xa0; | &#xa0;
   <a href="#rocket-tecnologias">Tecnologias</a> &#xa0; | &#xa0;
@@ -20,7 +20,7 @@
 </p>
 <hr>
 
-## 😸 Sobre ##
+## Sobre ##
 
 Projeto desenvolvido durante as aulas do Ignite NLW Setup - Habits patrocinado pela <a href="https://rocketseat.com.br/"> Rocketseat</a>.
 Neste evento vimos como usar tecnologias atuais e poderosas na construção de sistemas simples ou avançados, este projeto é completo com parte web(ReactJs), server(Backend com Node) e mobile(ReactNative).
