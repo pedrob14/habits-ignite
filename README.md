@@ -1,7 +1,4 @@
-<p align="center">
-   
-</p>
-
+# Habits
 <p align="center">
    <img src=".github/preview.jpg"/>
 </p> 
@@ -177,7 +174,5 @@ Acesse o projeto <link do Projeto aqui> para ver o resultado!
 
 Este projeto está sob licença MIT. Para mais informações acesse [LICENSE](LICENSE.md).
 
-<a href="#top">Voltar ao topo</a>
-<hr>
-Feito com 💜 por Pedro Farias
+<a href="#habits">Voltar ao topo</a>
 
