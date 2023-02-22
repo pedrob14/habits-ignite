@@ -9,6 +9,17 @@ import {
 } from '@expo-google-fonts/inter';
 
 export default function App() {
+  const [fontsLoaded] = useFonts({
+    Inter_400Regular, 
+    Inter_600SemiBold, 
+    Inter_700Bold,
+    Inter_800ExtraBold
+  })
+
+  if(!fontsLoaded){
+    return
+  }
+
   return (
     <View style={styles.container}>
       <Text style={styles.text}>Open up App.tsx to start working on your app!</Text>
