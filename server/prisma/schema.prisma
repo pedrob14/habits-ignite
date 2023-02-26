@@ -23,6 +23,11 @@ model Habit {
   @@map("habits")
 }
 
+model HabitWeekDays {
+  id String @id @default(uuid())
+  habit_id String
+}
+
 model Day {
   id String @id @default(uuid())
   date DateTime
