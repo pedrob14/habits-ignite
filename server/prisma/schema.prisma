@@ -24,8 +24,10 @@ model Habit {
 }
 
 model HabitWeekDays {
-  id String @id @default(uuid())
+  id       String @id @default(uuid())
   habit_id String
+  week_day Int
+
 }
 
 model Day {
