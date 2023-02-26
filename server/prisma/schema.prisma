@@ -28,6 +28,7 @@ model Day {
   date DateTime
 
   @@unique([date]) // Pra não ter dois dias iguais cadastrados
+  @@map("days")
 }
 
 model DayHabit {
@@ -37,4 +38,5 @@ model DayHabit {
   habit_id String
 
   @@unique([day_id, habit_id])
+  @@map("day_habits")
 }
