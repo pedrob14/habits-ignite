@@ -23,7 +23,12 @@ model Habit {
   @@map("habits")
 }
 
+model Day {
+  id String @id @default(uuid())
+  date DateTime
 
+  
+}
 
 model DayHabit {
   id String @id @default (uuid())
