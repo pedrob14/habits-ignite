@@ -35,4 +35,6 @@ model DayHabit {
 
   day_id String
   habit_id String
+
+  @@unique([day_id, habit_id])
 }
