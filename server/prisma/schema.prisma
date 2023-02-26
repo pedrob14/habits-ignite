@@ -28,6 +28,7 @@ model HabitWeekDays {
   habit_id String
   week_day Int
 
+  @@unique([habit_id, week_day])
 }
 
 model Day {
