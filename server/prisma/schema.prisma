@@ -17,10 +17,12 @@ model Habit {
   // @id -> pra falar que é a chave primária da aplicação
   // @default(uuid()) -> Quando o hábito for criado no banco de dados, ele vai preencher o id automaticamente com um "uuid"
   // uuid -> É um indentificador (id) único universal
-  id        String     @id @default(uuid())
+  id        String   @id @default(uuid())
   title     String
   create_at DateTime
-  DayHabit  DayHabit[]
+
+  dayHabits     DayHabit[]
+  weekDays HabitWeekDays[]
 
   //@@map -> para informar qual será o nome da tabela
   @@map("habits")
@@ -31,14 +33,17 @@ model HabitWeekDays {
   habit_id String
   week_day Int
 
+  habit   Habit  @relation(fields: [habit_id], references: [id])
+
   @@unique([habit_id, week_day])
   @@map("habit_week_days")
 }
 
 model Day {
-  id       String     @id @default(uuid())
-  date     DateTime
-  DayHabit DayHabit[]
+  id   String   @id @default(uuid())
+  date DateTime
+
+  dayHabits DayHabit[]
 
   @@unique([date]) // Pra não ter dois dias iguais cadastrados
   @@map("days")
@@ -50,8 +55,8 @@ model DayHabit {
   day_id   String
   habit_id String
 
-  day     Day    @relation(fields: [day_id], references: [id])
-  habit   Habit  @relation(fields: [habit_id], references: [id])
+  day   Day   @relation(fields: [day_id], references: [id])
+  habit Habit @relation(fields: [habit_id], references: [id])
 
   @@unique([day_id, habit_id])
   @@map("day_habits")
