@@ -19,7 +19,7 @@
 ## Sobre ##
 
 Projeto desenvolvido durante as aulas do Ignite NLW Setup pela <a href="https://rocketseat.com.br/"> Rocketseat</a>.
-Neste evento vimos como usar tecnologias atuais e poderosas na construção de sistemas simples ou avançados.
+Neste evento foi visto como usar tecnologias atuais e poderosas na construção de sistemas simples ou avançados.
 Este projeto é completo com parte web (ReactJs), server (Backend com Node) e mobile (ReactNative).
 
 <b>Habits</b> é uma aplicação desenvolvida que possibilita o usuário:
